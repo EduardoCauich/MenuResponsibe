@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src='https://kit.fontawesome.com/2ee0245f3d.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    
+</head>
+<body>
+    <header>
+        <div class="contenedorgeder ancho">
+        <div class="conjuntos">
+            <figure class="logo">
+                <img src="imagenes/logo_arriba.png" alt="">
+            </figure>
+            <a href="#" id="bot"><div class="menu_movil">
+            <i class="fa-solid fa-bars"></i>
+            </div></a>
+        </div>
+            <nav id="menu_X"> 
+                <ul>
+                <li><a href='#'>Inicio</a></li>
+                <li><a href='#'>Servicios</a></li>
+                <li><a href='#'>Nuestros Productos</a></li>
+                <li><a href='#'>Contactanos</a></li>
+                </ul>
+            </nav>        
+        </div>
+    </header>
+    <div class="fondo">
+        <div class="ancho text_banner">
+            <h2>Cultivamos verduras orgánicas y las traemos a tu mesa</h2>
+        </div>
+    </div>
+    <!-- seccion de info-->
+    <section class="secc1">
+        <h2>Nuestros Servicio</h2>
+        <h3 class="verde">Lo que ofrecemos</h3> <br>
+        <div class="cuadros ancho">
+        <article>
+            <figure class="img">
+                <img src="imagenes/icono1.png" alt="">
+            </figure>
+            <h3  class="verde">Ganado Vacuno</h3>
+            <p>Carne de res produciona sin ingenieria genética, uso de radiación ionizante o lodos de depuradora</p>
+        </article>
+        <article>
+            <figure class="img">
+                <img src="imagenes/icono2.png" alt="">
+            </figure>
+            <h3  class="verde">Productos Lacteos</h3>
+            <p>Los productos lacteos son como la leche, el queso y el yogurt contienen los nutrientes que su cuerpo necesita.</p>
+        </article>
+        <article>
+            <figure class="img">
+                <img src="imagenes/icono3.png" alt="">
+            </figure>
+            <h3  class="verde">Furtas de la Huerta</h3>
+            <p>Cubre todo lo que necesitas saber para cultivar y comercializar con éxito sus propias frutas orgánicas de huerta.</p>
+        </article>
+    </div>
+    </section>
+    <footer class="pie">
+        <figure>
+            <img src="imagenes/logo_abajo.png" alt="">
+        </figure>
+    </footer>
+    <script>
+        $("#bot").click(function(){
+            $("#menu_X").slideToggle();
+        })
+    </script>
+
+    
+</body>
+</html>
